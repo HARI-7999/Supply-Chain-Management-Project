@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>loginvalidatorname</servlet-name>
+        <servlet-class>loginvalidator</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>profilename</servlet-name>
+        <servlet-class>profile</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>addproductname</servlet-name>
+        <servlet-class>addproduct</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>servletpackname</servlet-name>
+        <servlet-class>servletpack</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>userservletpackname</servlet-name>
+        <servlet-class>userservletpack</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginvalidatorname</servlet-name>
+        <url-pattern>/loginvalidatorurl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>profilename</servlet-name>
+        <url-pattern>/profileurl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>addproductname</servlet-name>
+        <url-pattern>/addproducturl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>servletpackname</servlet-name>
+        <url-pattern>/servletpackurl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>userservletpackname</servlet-name>
+        <url-pattern>/userservletpackurl</url-pattern>
+    </servlet-mapping>
+</web-app>
